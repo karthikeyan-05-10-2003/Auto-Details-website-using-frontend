@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oxanium:wght@200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ+Guides&family=Rubik+Storm&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+.car{
+    text-align: center;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+.car ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+.car img{
+    float:left;
+    padding-top:25px;
+    padding-left: 10px;
+    width:18%;
+}
+.car ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:30px;
+    color: white;
+    font-weight: 50px;
+    font-size: 17px;  
+}
+
+
+/* --navbar-- */
+.vehicle{
+    background-image: url(./banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    height:100vh;
+}
+.car button{
+    background-color: #e9021e;
+    color:white;
+    border:none;
+    padding:7px 0px 8px 0px;
+    border-radius: 5px;
+    width:18%;
+    cursor: pointer;
+    font-size: 17px;
+}
+.car .home{
+    position: relative;
+    display:inline-block;
+}
+.car .name1{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .home:hover .name1{
+    display: block;
+}
+.car .name1 a{
+    color:white;
+}
+.car .service{
+    position: relative;
+    display:inline-block;
+}
+.car .name2{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .service:hover .name2{
+    display: block;
+}
+.car .name2 a{
+    color:white;
+}
+.car .page{
+    position: relative;
+    display:inline-block;
+}
+.car .name3{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .page:hover .name3{
+    display: block;
+}
+.car .name3 a{
+    color:white;
+}
+
+.car .shop{
+    position:relative;
+    display: inline-block;
+}
+.car .name4{
+    position: absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .name4 a{
+    color: white;
+}
+.car .shop:hover .name4{
+    display: block;
+}
+.car .name5{
+    position: absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .name5 a{
+    color: white;
+}
+.car .gallery:hover .name5{
+    display: block;
+}
+.car .name6{
+    position:absolute;
+    width:100px;
+    background-color:#000000c0;
+    padding:10px;
+    color:white;
+    display: none;
+    line-height: 30px;
+}
+.car .name6 a{
+    color:white;
+}
+.car .workshop:hover .name6{
+    display:block;
+}
+.car .list{
+    position: relative;
+    display:inline-block;
+}
+.car .name7{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .list:hover .name7{
+    display: block;
+}
+.car .name7 a{
+    color:white;
+}
+
+
+/* --body-- */
+.body{
+    width:100%;
+    display:flex;
+}
+.body .head{
+    width:70%;
+}
+.body .para{
+    width:30%;
+}
+.body .head3 h3{
+    margin-top: 250px;
+    margin-left: 150px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color:white;
+    text-transform: uppercase;
+}
+.body .head1 h1{
+    margin-top: 25px;
+    margin-left:150px;
+    font-weight: 500;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: "Oxanium", Sans-serif;
+    color:white;
+    letter-spacing: -2px;
+    line-height:75px; 
+}
+.body .head1 span{
+    color:red;
+}
+.body .para{
+    display: block;
+    margin-top:350px;
+    color:rgba(255, 255, 255, 0.77);
+    font-size:15px;
+    padding:0px 50px 0px 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* --Restoring lasting Shine-- */
+.bus{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: hsla(0, 0%, 0%, 0.925);
+}
+.bus .img1 img{
+    margin-top: 50px;
+    width: 270px;
+    height: 350px;
+    border-radius: 20px;
+}
+.bus .img2 img{
+    margin-top: 100px;
+    width:270px;
+    height:350px;
+    border-radius: 20px;
+}
+.bus .img3 p{
+    width:500px;
+    color:white;
+}
+#p1{
+    padding: 100px 0 3px 0;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+}
+#p2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Oxanium", Sans-serif;
+}
+#p3{
+    font-size: 15.5px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFFA6;
+    margin: 0px 0px 10px 0px;
+}
+.bus .img3 button{
+    position: relative;
+    background-color: red;
+    font-size:15px;
+    font-weight: 500;
+    color:white;
+    width:20%;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+}
+
+
+/* --icon-- */
+.bike{
+    background-color: hsla(0, 0%, 0%, 0.925);
+    display: flex;
+    justify-content: space-evenly;
+    position:block;
+    padding:80px 0px 30px 20px;
+}
+.bike .icon1 img{
+    width:25%;
+    background-color: #e9021e;
+    padding:5px;
+    border-radius: 10px;
+}
+.bike .icon2 img{
+    width:25%;
+    background-color: #e9021e;
+    padding:5px;
+    border-radius: 10px;
+}
+.bike .icon3 img{
+    width:25%;
+    background-color: #e9021e;
+    padding:5px;
+    border-radius: 10px;
+}
+.bike .icon4 img{
+    width:25%;
+    background-color: #e9021e;
+    padding:5px;
+    border-radius: 10px;
+}
+.bike h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+    line-height: 50px;
+    font-family: "Oxanium", Sans-serif;
+}
+.bike h3{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    color:rgba(255, 255, 255, 0.636);
+    font-family: "Oxanium", Sans-serif;
+}
+
+
+/* --car image-- */
+.icon{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./Autodetail2.webp);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    height:600px;
+    width:100%;
+}
+.icon-img img{
+    background-position: center;
+    background-size: cover;
+    width:70%;
+    margin-top:150px;
+    padding-left: 200px;
+}
+
+
+/*--Premium Car Detailing-- */
+.Premium{
+    background-color: #222222;
+    height:auto;
+}
+.Premium h3{
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 100px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family:"Oxanium", Sans-serif;
+}
+.Premium h2{
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-family: "Oxanium", Sans-serif;
+}
+.Premium p{
+    color:rgba(255, 255, 255, 0.523);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Oxanium", Sans-serif;
+}
+
+/* --Premium-image-- */
+.Premium-image{
+    display:flex;
+    width:100%;
+    padding-top:20px;
+    justify-content: space-evenly;
+}
+.Premium-image .image1{
+    width:30%;
+    display:flex;
+}
+.Premium-image .image2{
+    width:30%;
+    display:flex;
+}
+.Premium-image .image3{
+    width: 30%;
+    display:flex;
+}
+.Premium-image .image4{
+    width: 30%;
+    display:flex;
+}
+.Premium-image .image5{
+    width: 30%;
+    display:flex;
+}
+.Premium-image .image6{
+    width:30%;
+    display:flex;
+
+}
+.Premium-image img{ 
+    width: 100%;
+    border-radius:20px;
+    height:450px;
+}
+
+/* --Swiper-- */
+.swiper{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.swiper img{
+    width:80px;
+}
+
+
+/* --Results-- */
+.Results{
+    width:100%;
+    background-color: #121212;
+    display: flex;
+    padding-bottom: 50px;
+    height:auto;
+}
+.Results .clearness{
+    width:50%;    
+}
+.Results .clearness h3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 12px;
+    letter-spacing: 10px;
+    color:white;
+    text-transform: uppercase;  
+    font-family: "Oxanium", Sans-serif;
+}
+.Results .clearness h2{
+    display: flex;
+    margin-top: 25px;
+    padding-left:35px;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: "Oxanium", Sans-serif;
+    color:white;
+    letter-spacing: 2px;
+    line-height:57.6px; 
+    text-align: left;
+}
+.Results .clearness p{
+    display: flex;
+    width:100%;
+    color:rgba(255, 255, 255, 0.523);
+    font-size: 16px;
+    margin-left: 0px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-left: 35px;
+    text-align: left;
+}
+.Results .clearness-img{
+    width:50%;
+}
+.Results .clearness-img img{
+    width:90%;
+    height:400px;
+    margin-top: 100px;
+    padding-left: 40px;
+    border-radius:10px;
+}
+
+
+/* --Review-- */
+.Review img{
+    width:100%;
+}
+
+/* --Affordable-- */
+.Affordable{
+    width:100%;
+    background-color: #E9021E;
+    display: flex;
+    padding-top:70px;
+    padding-bottom: 50px;
+}
+.Affordable .btn1{
+    width:70%
+}
+.Affordable .btn2{
+    width:30%
+}
+.Affordable h2{
+    display:flex;
+    color:white;
+    width:70%;
+    font-family: "Oxanium", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+.Affordable button{
+    display: flex;
+    float:inline-end;
+    margin-right: 10px;
+    background-color: #E9021E;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    width:50%;
+    padding:15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* --Affordable-- */
+
+
+/* --Trusted-- */
+.Trusted{
+    background-color: #121212;
+    height: auto;
+}
+.Trusted .tle h3{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 12px;
+    letter-spacing: 10px;
+    color:white;
+    text-transform: uppercase;  
+    font-family: "Oxanium", Sans-serif;
+}
+.Trusted .tle  h2{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: "Oxanium", Sans-serif;
+    color:white;
+    letter-spacing: -0.72px;
+    line-height:57.6px;  
+}
+.Trusted .tle p{
+    color:rgba(255, 255, 255, 0.523);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Oxanium", Sans-serif;
+}
+.Trusted .Trusted-1{
+    display:flex;
+    width:100%;
+    gap:25px;
+    margin-top: 50px;
+    height:auto;
+    padding-bottom:50px;
+}
+.Trusted-1 .Tst{
+    display:flex;
+    width:25%;
+    border:2px solid gray;
+    background-color:#222222;
+    border-radius: 15px;
+    border:none;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 10px 0px 10px;
+}
+.Trusted-1 .Tst h3{
+    font-size:15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    padding: 50px;
+    
+}
+/* --Trusted-- */
+
+
+/* --Background-image-- */
+.bg-img img{
+    width:100%;
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter:contrast(100%);
+}
+/* --Background-image-- */
+
+
+
+/* --Instagarm-- */
+.Insta{
+    width:100%;
+    height:auto;
+    color:white;
+    background-color: #222222;
+
+}
+.Insta h1{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.72px;
+    font-size: 48px;
+    font-family: "Oxanium", Sans-serif;
+}
+.Insta-img{
+    width:100%;
+    display:flex;
+    position:absolute;
+     background-color: #222222; 
+    flex-direction: row;
+}
+.Insta-img img{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

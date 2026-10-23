@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oxanium:wght@200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+NZ+Guides&family=Rubik+Storm&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+.car{
+    text-align: center;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+.car ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+.car img{
+    float:left;
+    padding-top:25px;
+    padding-left: 10px;
+    width:18%;
+}
+.car ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:30px;
+    color: white;
+    font-weight: 50px;
+    font-size: 17px;  
+}
+
+
+/* --navbar-- */
+.vehicle{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background: url(../contact1.webp) center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vehicle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65); 
+    z-index: 1;
+}
+.car button{
+    background-color: #e9021e;
+    color:white;
+    border:none;
+    padding:7px 0px 8px 0px;
+    border-radius: 5px;
+    width:18%;
+    cursor: pointer;
+    font-size: 17px;
+}
+.car .home{
+    position: relative;
+    display:inline-block;
+}
+.car .name1{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .home:hover .name1{
+    display: block;
+}
+.car .name1 a{
+    color:white;
+}
+.car .service{
+    position: relative;
+    display:inline-block;
+}
+.car .name2{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .service:hover .name2{
+    display: block;
+}
+.car .name2 a{
+    color:white;
+}
+.car .name3{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .page:hover .name3{
+    display: block;
+}
+.car .name3 a{
+    color:white;
+}
+.car .shop{
+    position:relative;
+    display: inline-block;
+}
+.car .name4{
+    position: absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .name4 a{
+    color: white;
+}
+.car .shop:hover .name4{
+    display: block;
+}
+.car .name5{
+    position: absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .name5 a{
+    color: white;
+}
+.car .gallery:hover .name5{
+    display: block;
+}
+.car .name6{
+    position:absolute;
+    width:100px;
+    background-color:#000000c0;
+    padding:10px;
+    color:white;
+    display: none;
+    line-height: 30px;
+}
+.car .name6 a{
+    color:white;
+}
+.car .workshop:hover .name6{
+    display:block;
+}
+.car .list{
+    position: relative;
+    display:inline-block;
+}
+.car .name7{
+    position:absolute;
+    width:100px;
+    background-color: #000000c0;
+    display:none;
+    padding:10px;
+    line-height: 30px;
+}
+.car .list:hover .name7{
+    display: block;
+}
+.car .name7 a{
+    color:white;
+}
+/* --navbar-- */
+
+
+/* --body-- */
+.vehicle .body {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    font-family: "Oxanium", Sans-serif;
+}
+.body h3{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid gray;
+    color:white;
+}
+.body .gt p{
+    text-align: center;
+    color: #ddd;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Oxanium", Sans-serif;
+    padding-top:20px;
+    word-spacing: 15px;
+}
+/* --body-- */
+
+
+/* --Touch-- */
+.Touch{
+    display:flex;              
+    flex-wrap:wrap;
+    height:auto;
+    background-color: #121212;
+    padding-bottom: 50px;
+}
+.left-box,.right-box{
+    margin-top:100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex:1;
+    min-width:320px;
+    border-radius:12px;
+    overflow:hidden;
+}
+.left-box{
+    background-image: url("../paint correction.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.left-box .get .get1{
+    color:white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family:"Oxanium", Sans-serif;
+}
+.left-box .get h1{
+    color:white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    font-family: "Oxanium", Sans-serif;
+}
+.left-box .get p{
+    color:rgba(255, 255, 255, 0.523);
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.right-box{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.right-box h2{
+    font-family: "Oxanium", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.input-box{
+      width:70%;
+      padding:16px;
+      margin-left: 40px;
+      margin-bottom:10px;
+      background:transparent;
+      border:1px solid #444;
+      border-radius:6px;
+      color:white;
+      font-size:16px;
+      position: relative;
+      z-index: 1;
+    }
+.right-box button{
+    background-color: #e9021e;
+    color:white;
+    border:none;
+    padding:10px 0px 10px 0px;
+    border-radius: 5px;
+    width:30%;
+    margin-left: 40px;
+    margin-bottom:30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Touch .get{
+    padding:15px;
+}
+/* --Touch-- */
+
+
+/* --Details-- */
+.det{
+    width: 100%;
+    display: flex;
+    background-color: #121212;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.det .Location h2{
+    font-family: "Oxanium", Sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.det .Location p{
+    color:#ffffffa6;
+    font-size:18px;
+    line-height: 30px;
+}
+.Location svg{
+    color:#e9021e;
+}
+/* --Details */
+
+
+/* --Address-- */
+.Address{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    padding-top: 90px;
+    background-color: #222222;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.409);
+    padding-bottom: 50px;
+}
+.Address .company{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:20px;
+}
+.Address .company h2{
+    color:white;
+    font-family: "Oxanium", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.Address .company p{
+    font-weight: 400;
+    line-height: 30px;
+    color:#ffffffa6;
+    font-family: "Oxanium", Sans-serif;
+}
+.Address .company img{
+    width:80%;
+    padding-bottom:20px;
+}
+.Address .company svg{
+    color:red;
+}
+/* --Address-- */
+
+
+/* --Footer-- */
+.footer{
+    width:100%;
+    display:flex;
+    background-color: #222222;
+    padding-top: 30px;
+    font-family: "Oxanium", Sans-serif;
+    color:#ffffffa6;
+}
+.footer .footer1{
+    width:50%;
+    display:flex;
+    padding-left: 20px;
+}
+.footer .footer2{
+    width:50%;
+    display:flex;
+    justify-content: end;
+}
+.footer .footer2 button{
+    background: transparent;
+    border:none;
+    color:#ffffffa6;
+    padding-inline-start: 20px;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-bottom:30px;
+}
